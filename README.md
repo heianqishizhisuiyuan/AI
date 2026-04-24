@@ -51,7 +51,7 @@
 | ----------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | **memory**              | [进入](https://github.com/modelcontextprotocol/servers/tree/main/src/memory)             | 官方参考 MCP Server,提供基于知识图谱的持久化记忆能力,适合做上下文补充和长期信息存储    |
 | **sequential-thinking** | [进入](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) | 官方参考 MCP Server,适合复杂问题拆解、多步推理、方案分析和逐步验证                     |
-| **context7**            | [upstash/context7](https://github.com/upstash/context7)                                  | Upstash 官方 Context7 MCP,用于查询最新库/框架文档与代码示例,适合技术实现时快速检索资料 |
+| **context7**            | [进入](https://github.com/upstash/context7)                                  | Upstash 官方 Context7 MCP,用于查询最新库/框架文档与代码示例,适合技术实现时快速检索资料 |
 | **fetch**               | [进入](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch)              | 官方参考 MCP Server,用于抓取网页内容并提取适合 LLM 使用的正文内容                      |
 | **time**                | [进入](https://github.com/modelcontextprotocol/servers/tree/main/src/time)               | 官方参考 MCP Server,提供当前时间查询和时区转换能力                                     |
 | **Chrome DevTools MCP** | [进入](https://github.com/ChromeDevTools/chrome-devtools-mcp)                            | 让 agent 直接做性能 trace、页面调试、前端问题定位                                      |
