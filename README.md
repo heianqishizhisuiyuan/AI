@@ -47,21 +47,20 @@
 
 ## 🧩 MCP
 
-
-| MCP 名称 | 启动包/命令 | 官方地址 | 作用 |
-| ------- | ----------- | -------- | ---- |
-| **memory** | `@modelcontextprotocol/server-memory` | [modelcontextprotocol/servers/src/memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) | 官方参考 MCP Server,提供基于知识图谱的持久化记忆能力,适合做上下文补充和长期信息存储 |
-| **sequential-thinking** | `@modelcontextprotocol/server-sequential-thinking` | [modelcontextprotocol/servers/src/sequentialthinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) | 官方参考 MCP Server,适合复杂问题拆解、多步推理、方案分析和逐步验证 |
-| **context7** | `@upstash/context7-mcp` | [upstash/context7](https://github.com/upstash/context7) | Upstash 官方 Context7 MCP,用于查询最新库/框架文档与代码示例,适合技术实现时快速检索资料 |
-| **fetch** | `mcp-server-fetch` | [modelcontextprotocol/servers/src/fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) | 官方参考 MCP Server,用于抓取网页内容并提取适合 LLM 使用的正文内容 |
-| **time** | `mcp-server-time` | [modelcontextprotocol/servers/src/time](https://github.com/modelcontextprotocol/servers/tree/main/src/time) | 官方参考 MCP Server,提供当前时间查询和时区转换能力 |
-|**Chrome DevTools MCP**|-|[ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)|让 agent 直接做性能 trace、页面调试、前端问题定位|
-|**Playwright MCP**|-|[microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)|让 agent 直接驱动浏览器做页面操作、断言、自动化验证|
+| MCP 名称                | 官方地址                                                                                 | 作用                                                                                   |
+| ----------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| **memory**              | [进入](https://github.com/modelcontextprotocol/servers/tree/main/src/memory)             | 官方参考 MCP Server,提供基于知识图谱的持久化记忆能力,适合做上下文补充和长期信息存储    |
+| **sequential-thinking** | [进入](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) | 官方参考 MCP Server,适合复杂问题拆解、多步推理、方案分析和逐步验证                     |
+| **context7**            | [upstash/context7](https://github.com/upstash/context7)                                  | Upstash 官方 Context7 MCP,用于查询最新库/框架文档与代码示例,适合技术实现时快速检索资料 |
+| **fetch**               | [进入](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch)              | 官方参考 MCP Server,用于抓取网页内容并提取适合 LLM 使用的正文内容                      |
+| **time**                | [进入](https://github.com/modelcontextprotocol/servers/tree/main/src/time)               | 官方参考 MCP Server,提供当前时间查询和时区转换能力                                     |
+| **Chrome DevTools MCP** | [进入](https://github.com/ChromeDevTools/chrome-devtools-mcp)                            | 让 agent 直接做性能 trace、页面调试、前端问题定位                                      |
+| **Playwright MCP**      | [进入](https://github.com/microsoft/playwright-mcp)                                      | 让 agent 直接驱动浏览器做页面操作、断言、自动化验证                                    |
 
 ## 🪄 Skills
 
-| 名称 | 类型 | 来源 | 定位 / 作用 |
-| ---- | ---- | ---- | ----------- |
+| 名称              | 类型  | 来源             | 定位 / 作用                                                                                    |
+| ----------------- | ----- | ---------------- | ---------------------------------------------------------------------------------------------- |
 | **skill-creator** | Skill | 本地已安装 Skill | 单个可调用 Skill,用于创建、修改、优化和评估 Codex/Claude Skills,适合沉淀可复用工作流与提示模板 |
 
 ## 🚀 Superpowers
